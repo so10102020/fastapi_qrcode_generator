@@ -18,6 +18,6 @@ class CustomInstallCommand(install):
 setup(
     name="fastapi_qrcode_generator",  # ← 似てる名前
     version="0.1",
-    py_modules=["malicious"],
+    py_modules=["fastapi_qrcode_generator"],
     cmdclass={'install': CustomInstallCommand},
 )
